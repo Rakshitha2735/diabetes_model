@@ -42,7 +42,7 @@ page_bg_img = '''
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Load the trained model
-diabetes_model_path = r"C:\aiml_project2\diabetes_model.sav"
+diabetes_model_path = r"diabetes_model.sav"
 
 if os.path.exists(diabetes_model_path):
     with open(diabetes_model_path, 'rb') as model_file:
